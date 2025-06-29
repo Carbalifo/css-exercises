@@ -1,0 +1,13 @@
+.attention-seeker {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.proactive {
+    background-color: black;
+    color: white;
+}
+
+.reactive {
+    background-color: yellow;
+}
