@@ -18,15 +18,18 @@ body {
 
 .left-side {
   display: flex;
-  justify-content: space-around;
-  width: 420px;
+  align-items: center;
+  padding-left: 8px;
+  gap: 16px;
+  padding-right: 16px;
 }
 
 .right-side {
   display: flex;
-  width: 230px;
-  justify-content: space-around;
   align-items: center;
+  padding-right: 8px;
+  gap: 16px;
+  padding-left: 16px;
 }
 
 .profile-image {
@@ -35,6 +38,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -50,6 +54,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  width: fit-content;
 }
 
 a {
@@ -62,7 +67,6 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  justify-content: space-between;
-  width: 260px;
+  gap: 16px;
   /* gap:20px; */
 }
